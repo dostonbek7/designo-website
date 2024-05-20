@@ -1,3 +1,102 @@
 main {
-    flex-grow: 1;
+  flex-grow: 1;
+  .hero {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 7rem;
+    margin-bottom: 16rem;
+    border-radius: 1.5rem;
+    padding-top: 2rem;
+    padding-left: 9.5rem;
+    padding-right: 9.5rem;
+    background-color: $peach-color;
+    background-image: url("../../images/hero-bg-oval.svg");
+    background-repeat: no-repeat;
+    background-size: 640px;
+    overflow: hidden;
+    background-position: center right;
+    .hero-content {
+      .hero-content__title {
+        font-weight: 500;
+        max-width: 500px;
+        width: 100%;
+        color: $white-color;
+        margin-bottom: 2rem;
+      }
+      .hero-content__text {
+        color: $white-color;
+        width: 100%;
+        max-width: 445px;
+        font-weight: 400;
+        margin-bottom: 4rem;
+      }
+    }
+    .hero-image {
+      margin-bottom: -14rem;
+    }
+  }
+  .projects {
+    display: flex;
+    align-items: center;
+    gap: 3rem;
+    .design-title {
+      text-transform: uppercase;
+      color: $white-color;
+      margin-bottom: 2.4rem;
+    }
+    .design-link {
+      font-size: 1.5rem;
+      font-weight: 500;
+      letter-spacing: 5px;
+      color: $white-color;
+      text-transform: uppercase;
+    }
+    .projects__right {
+      background-image: url("../../images/web-design.png");
+      background-size: cover;
+      background-repeat: no-repeat;
+      width: 100%;
+      max-width: 541px;
+      max-height: 640px;
+      padding: 27.3rem 13.6rem;
+      border-radius: 1.5rem;
+      text-align: center;
+    }
+    .projects__left {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      gap: 2.4rem;
+      .app-design {
+        background-image: url("../../images/app-design.png");
+        width: 100%;
+        max-width: 541px;
+        max-height: 308px;
+        padding: 14.3rem 10.7rem;
+        border-radius: 1.5rem;
+        text-align: center;
+      }
+      .graphic-design {
+        background-image: url("../../images/graph-design.png");
+        width: 100%;
+        max-width: 541px;
+        max-height: 308px;
+        padding: 10.7rem 8.8rem;
+        border-radius: 1.5rem;
+        text-align: center;
+      }
+    }
+  }
+}
+@media screen and (max-width: 768px) {
+  .hero {
+    flex-direction: column;
+    .hero-content {
+      text-align: center;
+      .hero-content__title {
+        font-size: 3rem;
+      }
+    }
+  }
 }

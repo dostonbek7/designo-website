@@ -1,0 +1,25 @@
+.btn {
+  padding: 1.7rem 2.5rem;
+  border-radius: 0.8rem;
+  font-weight: 500;
+  font-size: 1.5rem;
+  letter-spacing: 1px;
+}
+.dark-btn {
+  background: $white-color;
+  color: $black-color;
+}
+.dark-btn:hover {
+  background: $light-peach-color;
+  color: $white-color;
+}
+.light-btn {
+  background: $peach-color;
+  color: $white-color;
+}
+.light-btn:hover {
+  background: $light-peach-color;
+}
+.input {
+  border-bottom: 1px solid $white-color;
+}
