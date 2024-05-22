@@ -3,34 +3,36 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Project Name</title>
+    <title>Designo website</title>
+    <link
+      rel="shortcut icon"
+      href="./images/logo-icon.svg"
+      type="image/x-icon"
+    />
     <link rel="stylesheet" href="./css/style.css" />
   </head>
   <body>
     <!-- HEADER START -->
     <header class="header container">
-      <a class="header-logo" href="">
-        <img src="./images/Logo.svg" alt="logo" />
-      </a>
-      <ul class="navigation">
-        <li class="navigation__links">
-          <a class="navigation__link" href="">Our company</a>
-        </li>
-        <li class="navigation__links">
-          <a class="navigation__link" href="">Locations</a>
-        </li>
-        <li class="navigation__links">
-          <a class="navigation__link" href="">Contact</a>
-        </li>
-      </ul>
-      <button class="header-menu">
-        <img src="./images/menu-icon.svg" alt="menu-icon">
-      </button>
-    </header>
-    <!-- HEADER END -->
-
-    <!-- MAIN START-->
-    <main class="main container">
+      <div class="sitenav">
+        <a class="header-logo" href="">
+          <img src="./images/Logo.svg" alt="logo" />
+        </a>
+        <ul class="navigation">
+          <li class="navigation__links">
+            <a class="navigation__link" href="">Our company</a>
+          </li>
+          <li class="navigation__links">
+            <a class="navigation__link" href="">Locations</a>
+          </li>
+          <li class="navigation__links">
+            <a class="navigation__link" href="">Contact</a>
+          </li>
+        </ul>
+        <button class="header-menu">
+          <img src="./images/menu-icon.svg" alt="menu-icon" />
+        </button>
+      </div>
       <div class="hero">
         <div class="hero-content">
           <h1 class="hero-content__title">
@@ -45,29 +47,113 @@
         </div>
         <img class="hero-image" src="./images/home-img.png" alt="hero-img" />
       </div>
-      <!-- <div class="projects">
-        <div class="projects__right">
+    </header>
+    <!-- HEADER END -->
+
+    <!-- MAIN START-->
+    <main class="main container">
+      <div class="projects">
+        <div class="web-design">
           <h2 class="design-title">Web design</h2>
-          <a class="design-link" href="">view projects</a>
+          <a class="design-link" href="">
+            <span>view projects</span>
+            <img src="./images/right-arrow.svg" alt="right-arrow-icon" />
+          </a>
         </div>
-        <div class="projects__left">
+        <div class="secondary-design">
           <div class="app-design">
             <h2 class="design-title">App design</h2>
-            <a class="design-link" href="">view projects</a>
+            <a class="design-link" href="">
+              <span>view projects</span>
+              <img src="./images/right-arrow.svg" alt="right-arrow-icon" />
+            </a>
           </div>
           <div class="graphic-design">
             <h2 class="design-title">Graphic design</h2>
-            <a class="design-link" href=""> <span>view projects</span>
-              <img src="" alt="">
+            <a class="design-link" href="">
+              <span>view projects</span>
+              <img src="./images/right-arrow.svg" alt="right-arrow-icon" />
             </a>
           </div>
         </div>
-      </div> -->
+      </div>
+      <div class="cards-wrapper">
+        <div class="card">
+          <img class="card__img" src="./images/passionet.svg" alt="passionet" />
+          <div class="card__content">
+            <h3 class="card__title">PASSIONATE</h3>
+            <p class="card__text">
+              Each project starts with an in-depth brand research to ensure we
+              only create products that serve a purpose. We merge art, design,
+              and technology into exciting new solutions.
+            </p>
+          </div>
+        </div>
+        <div class="card">
+          <img
+            class="card__img"
+            src="./images/resourseful.svg"
+            alt="resourceful"
+          />
+          <div class="card__content">
+            <h3 class="card__title">RESOURCEFUL</h3>
+            <p class="card__text">
+              Everything that we do has a strategic purpose. We use an agile
+              approach in all of our projects and value customer collaboration.
+              It guarantees superior results that fulfill our clients’ needs.
+            </p>
+          </div>
+        </div>
+        <div class="card">
+          <img
+            class="card__img"
+            src="./images/friendly-img.svg"
+            alt="friendly"
+          />
+          <div class="card__content">
+            <h3 class="card__title">FRIENDLY</h3>
+            <p class="card__text">
+              We are a group of enthusiastic folks who know how to put people
+              first. Our success depends on our customers, and we strive to give
+              them the best experience a company can provide.
+            </p>
+          </div>
+        </div>
+      </div>
+      <div class="about-project">
+        <div class="about-project__context">
+          <h2 class="about-project__title">Let’s talk about your project</h2>
+          <p class="about-project__text">
+            Ready to take it to the next level? Contact us today and find out
+            how our expertise can help your business grow.
+          </p>
+        </div>
+        <button class="btn dark-btn">Get in touch</button>
+      </div>
     </main>
     <!-- MAIN END-->
 
     <!-- FOOTER START -->
-    <footer class="footer"></footer>
+    <footer class="footer container">
+
+        <div class="footer-menu">
+          <a class="footer-logo" href="">
+            <img src="./images/footer-logo.png" alt="logo" />
+          </a>
+          <ul class="footer__navigation">
+            <li class="footer__navigation__links">
+              <a class="footer__navigation__link" href="">Our company</a>
+            </li>
+            <li class="footer__navigation__links">
+              <a class="footer__navigation__link" href="">Locations</a>
+            </li>
+            <li class="footer__navigation__links">
+              <a class="footer__navigation__link" href="">Contact</a>
+            </li>
+          </ul>
+        </div>
+      
+    </footer>
     <!-- FOOTER END -->
   </body>
 </html>
