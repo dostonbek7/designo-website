@@ -56,9 +56,16 @@ body {
   padding-left: 5rem;
   padding-right: 5rem;
 }
-@media screen and (max-width: 768px) {
-  .container {
-    padding-left: 2.4rem;
-    padding-right: 2.4rem;
+@media screen and (max-width:768px) {
+  .container{
+    padding-left:4rem ;
+    padding-right:4rem ;
+  }
+}
+
+@media screen and (max-width:400px) {
+  .container{
+    padding-left:2.4rem ;
+    padding-right:2.4rem ;
   }
 }

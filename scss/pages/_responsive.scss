@@ -1,0 +1,158 @@
+@media screen and (max-width: 950px) {
+  .projects {
+    flex-direction: column;
+    gap: 2.4rem;
+    text-align: center;
+    align-items: center;
+    .web-design {
+      max-width: 689px;
+      height: 200px;
+      background-position: center bottom;
+    }
+    .secondary-design {
+      .app-design {
+        max-width: 689px;
+        height: 200px;
+      }
+      .graphic-design {
+        max-width: 689px;
+        height: 200px;
+      }
+    }
+  }
+  .about-project{
+    height: 350px;
+    flex-direction: column;
+    gap: 3.2rem;
+    padding: 5.7rem 5.8rem;
+    .about-project__context{
+      text-align: center;
+    }
+  }
+}
+
+@media screen and (max-width: 850px) {
+  .sitenav {
+    padding-top: 3.5rem;
+    padding-bottom: 3.5rem;
+    .navigation {
+      display: none;
+    }
+    .header-menu {
+      display: inline-block;
+    }
+  }
+  .hero {
+    background-position: right -120px center;
+    flex-direction: column;
+    height: auto;
+    gap: 6rem;
+    padding-top: 6rem;
+    text-align: center;
+    padding-bottom: 0;
+    margin-bottom: 12rem;
+    .hero-content {
+      text-align: center;
+      .hero-content__title {
+        font-size: 3rem;
+      }
+      .hero-content__text {
+        margin: auto;
+        margin-bottom: 1.9rem;
+      }
+    }
+  }
+  .graphic-design {
+    max-width: 327px;
+    height: 250px;
+    // padding: 3.6rem 9rem;
+  }
+  .cards-wrapper {
+    flex-direction: column;
+    margin-bottom: 6.7rem;
+    gap: 3.2rem;
+    .card {
+      max-width: 689px;
+      height: 202px;
+      flex-direction: row;
+      padding: 4.1rem 1rem;
+      .card__content {
+        text-align: left;
+        .card__title {
+          margin-bottom: 1.6rem;
+        }
+      }
+    }
+  }
+}
+@media screen and (max-width: 550px) {
+  .cards-wrapper {
+    gap: 8rem;
+    .card {
+      flex-direction: column;
+      max-width: 327px;
+      height: 450px;
+      padding-top: 2rem;
+      padding-bottom: 3rem;
+      .card__img {
+        max-width: 202px;
+        height: 202px;
+      }
+      .card__content {
+        text-align: center;
+        .card__title {
+          margin-bottom: 3.2rem;
+        }
+      }
+    }
+  }
+  .about-project{
+    //max-width: 400px;
+    height: 379px;
+    padding: 6.4rem 2.4rem;
+    .about-project__title{
+      font-size: 32px;
+      line-height: 1.12;
+      font-weight: 500;
+    }
+    .about-project__text{
+      font-size: 1.5rem;
+      line-height: 1.6;
+    }
+  }
+}
+@media screen and (max-width: 450px) {
+  .projects {
+    .web-design {
+      width: 100%;
+      max-width: 327px;
+      height: 250px;
+    }
+    .secondary-design {
+      .app-design {
+        width: 100%;
+        max-width: 327px;
+        height: 250px;
+      }
+      .graphic-design {
+        width: 100%;
+        max-width: 327px;
+        height: 250px;
+      }
+    }
+    .design-title {
+      font-size: 2.8rem;
+      letter-spacing: 0.14rem;
+      line-height: 1.2;
+    }
+    .design-link {
+      gap: 1.6rem;
+    }
+  }
+}
+
+@media screen and (max-width: 375px) {
+  .hero {
+    padding-top: 8rem;
+  }
+}

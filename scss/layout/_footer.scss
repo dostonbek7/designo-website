@@ -1,0 +1,26 @@
+.footer{
+  background: $black-color;
+  padding-top: 7.4rem;
+  padding-bottom: 7.4rem;
+  .footer-menu {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    .footer__navigation {
+      display: flex;
+      align-items: center;
+      gap: 4.2rem;
+      .footer__navigation__link {
+        font-weight: 400;
+        font-size: 1.4rem;
+        letter-spacing: 2px;
+        color: $white-color;
+        text-transform: uppercase;
+        &:hover {
+          text-decoration-line: underline;
+          text-decoration-color: $white-color;
+        }
+      }
+      }
+    }
+  }
