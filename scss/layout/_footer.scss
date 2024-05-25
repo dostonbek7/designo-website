@@ -1,11 +1,16 @@
-.footer{
+.footer {
+  z-index: -1;
   background: $black-color;
-  padding-top: 7.4rem;
-  padding-bottom: 7.4rem;
+  padding-top: 14.4rem;
+  padding-bottom: 7.2rem;
   .footer-menu {
     display: flex;
     align-items: center;
     justify-content: space-between;
+    margin-bottom: 4rem;
+    .footer-menu__line{
+      display: none;
+    }
     .footer__navigation {
       display: flex;
       align-items: center;
@@ -21,6 +26,25 @@
           text-decoration-color: $white-color;
         }
       }
-      }
     }
   }
+  .footer__line {
+    margin-bottom: 3.1rem;
+    border: 1px solid $white-color;
+    opacity: 0.1;
+  }
+  .footer-info {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    .footer__text{
+      color: $white-color;
+    }
+    .footer-social-media {
+      display: flex;
+      align-items: center;
+      gap: 1.6rem;
+      align-self: flex-end;
+    }
+  }
+}
