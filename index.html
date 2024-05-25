@@ -16,7 +16,7 @@
     <header class="header container">
       <div class="sitenav">
         <a class="header-logo" href="">
-          <img src="./images/Logo.svg" alt="logo" />
+          <img src="./images/svg/Logo.svg" alt="logo" />
         </a>
         <ul class="navigation">
           <li class="navigation__links">
@@ -30,7 +30,7 @@
           </li>
         </ul>
         <button class="header-menu">
-          <img src="./images/menu-icon.svg" alt="menu-icon" />
+          <img src="./images/svg/menu-icon.svg" alt="menu-icon" />
         </button>
       </div>
       <div class="hero">
@@ -45,7 +45,11 @@
           </p>
           <button class="btn dark-btn">Learn more</button>
         </div>
-        <img class="hero-image" src="./images/home-img.png" alt="hero-img" />
+        <img
+          class="hero-image"
+          src="./images/design/home-img.png"
+          alt="hero-img"
+        />
       </div>
     </header>
     <!-- HEADER END -->
@@ -53,33 +57,41 @@
     <!-- MAIN START-->
     <main class="main container">
       <div class="projects">
-        <div class="web-design">
+        <a href="./web-design.html" target="_blank" class="web-design">
           <h2 class="design-title">Web design</h2>
-          <a class="design-link" href="">
+          <span class="design-link">
             <span>view projects</span>
-            <img src="./images/right-arrow.svg" alt="right-arrow-icon" />
-          </a>
-        </div>
+            <img src="./images/svg/right-arrow.svg" alt="right-arrow-icon" />
+          </span>
+        </a>
         <div class="secondary-design">
-          <div class="app-design">
+          <a href="./app-design.html" target="_blank" class="app-design">
             <h2 class="design-title">App design</h2>
-            <a class="design-link" href="">
+            <span class="design-link">
               <span>view projects</span>
-              <img src="./images/right-arrow.svg" alt="right-arrow-icon" />
-            </a>
-          </div>
-          <div class="graphic-design">
+              <img src="./images/svg/right-arrow.svg" alt="right-arrow-icon" />
+            </span>
+          </a>
+          <a
+            href="./graphic-design.html"
+            target="_blank"
+            class="graphic-design"
+          >
             <h2 class="design-title">Graphic design</h2>
-            <a class="design-link" href="">
+            <span class="design-link">
               <span>view projects</span>
-              <img src="./images/right-arrow.svg" alt="right-arrow-icon" />
-            </a>
-          </div>
+              <img src="./images/svg/right-arrow.svg" alt="right-arrow-icon" />
+            </span>
+          </a>
         </div>
       </div>
       <div class="cards-wrapper">
         <div class="card">
-          <img class="card__img" src="./images/passionet.svg" alt="passionet" />
+          <img
+            class="card__img"
+            src="./images/svg/passionet.svg"
+            alt="passionet"
+          />
           <div class="card__content">
             <h3 class="card__title">PASSIONATE</h3>
             <p class="card__text">
@@ -92,7 +104,7 @@
         <div class="card">
           <img
             class="card__img"
-            src="./images/resourseful.svg"
+            src="./images/svg/resourseful.svg"
             alt="resourceful"
           />
           <div class="card__content">
@@ -107,7 +119,7 @@
         <div class="card">
           <img
             class="card__img"
-            src="./images/friendly-img.svg"
+            src="./images/svg/friendly-img.svg"
             alt="friendly"
           />
           <div class="card__content">
@@ -134,12 +146,13 @@
     <!-- MAIN END-->
 
     <!-- FOOTER START -->
-    <footer class="footer container">
-
+    <footer class="footer">
+      <div class="container">
         <div class="footer-menu">
           <a class="footer-logo" href="">
-            <img src="./images/footer-logo.png" alt="logo" />
+            <img src="./images/design/footer-logo.png" alt="logo" />
           </a>
+          <hr class="footer-menu__line" />
           <ul class="footer__navigation">
             <li class="footer__navigation__links">
               <a class="footer__navigation__link" href="">Our company</a>
@@ -152,7 +165,41 @@
             </li>
           </ul>
         </div>
-      
+        <div class="footer__line"></div>
+        <div class="footer-info">
+          <div class="footer-address">
+            <p class="footer__text">
+              Designo central Office <br />
+              3886 Wellington Street <br />
+              Toronto, Ontario M9C 3J5 <br />
+            </p>
+          </div>
+          <div class="footer-contact">
+            <p class="footer__text">
+              Contact Us (Central Office) <br />
+              P : +1 253-863-8967 <br />
+              M : contact@designo.co <br />
+            </p>
+          </div>
+          <div class="footer-social-media">
+            <a class="social-media__link" href="">
+              <img src="./images/svg/facebook-icon.svg" alt="" />
+            </a>
+            <a class="social-media__link" href="">
+              <img src="./images/svg/you-tube-icon.svg" alt="" />
+            </a>
+            <a class="social-media__link" href="">
+              <img src="./images/svg/twitter-icon.svg" alt="" />
+            </a>
+            <a class="social-media__link" href="">
+              <img src="./images/svg/pinterest-icon.svg" alt="" />
+            </a>
+            <a class="social-media__link" href="">
+              <img src="./images/svg/instagram-icon.svg" alt="" />
+            </a>
+          </div>
+        </div>
+      </div>
     </footer>
     <!-- FOOTER END -->
   </body>
